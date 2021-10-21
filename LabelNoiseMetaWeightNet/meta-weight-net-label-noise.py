@@ -145,7 +145,7 @@ def parseArgs():
     parser.add_argument('--prefetch', type=int, default=6,
                         help='Pre-fetching threads.')
     parser.add_argument('--width', type=int, default=1)
-    parser.add_argument('--meta_increase_c', type=int, default=2)
+    parser.add_argument('--meta_increase_c', type=int, default=1)
     parser.add_argument('--method', default='or2',
                         type=str, help='or2/evo/or2own')
     parser.add_argument('--name_of_args_json_file',

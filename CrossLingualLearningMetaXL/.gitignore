@@ -1,0 +1,5 @@
+data/*
+__pycache__/*
+cache/*
+output_dir/*
+*.out

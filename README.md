@@ -12,6 +12,7 @@ This repository provides implementation for the experiments mentioned in the pap
 * Rotation transformation
 * Cross-domain few-shot classification via learned feature-wise transformation
 * Label noise with MetaWeightNet
+* Low-resource cross-lingual learning with MetaXL
 
 ## Usage
 The following libraries are generally needed for the experiments:
@@ -28,10 +29,10 @@ The versions and any additional libraries depend on the sub-problem (further det
 
 If you find this useful for your research, please consider citing:
  ```
- @article{bohdal2021evograd,
+ @inproceedings{bohdal2021evograd,
    title={EvoGrad: Efficient Gradient-Based Meta-Learning and Hyperparameter Optimization},
    author={Bohdal, Ondrej and Yang, Yongxin and Hospedales, Timothy},
-   journal={arXiv preprint arXiv:2106.10575},
+   booktitle={Advances in Neural Information Processing Systems},
    year={2021}
 }
  ```

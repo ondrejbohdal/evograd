@@ -1,0 +1,5 @@
+pip install transformers
+pip install conllu
+pip install fire
+pip install seqeval
+pip install sentencepiece
